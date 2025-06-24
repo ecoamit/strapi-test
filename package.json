@@ -21,13 +21,12 @@
     "@strapi/strapi": "5.15.1",
     "fs-extra": "^10.0.0",
     "mime-types": "^2.1.27",
-    "pg": "8.8.0",
+    "pg": "^8.16.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
     "styled-components": "^6.0.0"
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=18.0.0 <=22.x.x",
     "npm": ">=6.0.0"
@@ -35,5 +34,8 @@
   "strapi": {
     "uuid": "18488ada-3341-4a79-a9da-a3416fcbf11e",
     "installId": "31a673f085e2c123dedc15107d850b747b15fe3a985d7ed4a388ad9059fb3d1b"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
   }
 }
